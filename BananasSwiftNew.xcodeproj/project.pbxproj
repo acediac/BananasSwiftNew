@@ -7,14 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C9E376371C44E3F2000B2A70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E376361C44E3F2000B2A70 /* AppDelegate.swift */; };
-		C9E376391C44E3F2000B2A70 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E376381C44E3F2000B2A70 /* GameView.swift */; };
-		C9E3763B1C44E3F2000B2A70 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E3763A1C44E3F2000B2A70 /* GameViewController.swift */; };
 		C9E3763D1C44E3F2000B2A70 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = C9E3763C1C44E3F2000B2A70 /* art.scnassets */; };
 		C9E3763F1C44E3F2000B2A70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9E3763E1C44E3F2000B2A70 /* Assets.xcassets */; };
 		C9E376421C44E3F2000B2A70 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9E376401C44E3F2000B2A70 /* MainMenu.xib */; };
 		C9E3764D1C44E3F2000B2A70 /* BananasSwiftNewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E3764C1C44E3F2000B2A70 /* BananasSwiftNewTests.swift */; };
 		C9E376581C44E3F2000B2A70 /* BananasSwiftNewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E376571C44E3F2000B2A70 /* BananasSwiftNewUITests.swift */; };
+		C9E3766B1C44E572000B2A70 /* AAPLAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E376681C44E572000B2A70 /* AAPLAppDelegate.swift */; };
+		C9E3766C1C44E572000B2A70 /* AAPLSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E376691C44E572000B2A70 /* AAPLSceneView.swift */; };
+		C9E376701C44E5D4000B2A70 /* AppDelegateOSX.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E3766F1C44E5D4000B2A70 /* AppDelegateOSX.swift */; };
+		C9E376761C44EBEC000B2A70 /* AAPLCoconut.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E376721C44EBEC000B2A70 /* AAPLCoconut.swift */; };
+		C9E376771C44EBEC000B2A70 /* AAPLMonkeyCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E376731C44EBEC000B2A70 /* AAPLMonkeyCharacter.swift */; };
+		C9E376781C44EBEC000B2A70 /* AAPLPlayerCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E376741C44EBEC000B2A70 /* AAPLPlayerCharacter.swift */; };
+		C9E376791C44EBEC000B2A70 /* AAPLSkinnedCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E376751C44EBEC000B2A70 /* AAPLSkinnedCharacter.swift */; };
+		C9E3767F1C44EBF6000B2A70 /* AAPLInGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E3767B1C44EBF6000B2A70 /* AAPLInGameScene.swift */; };
+		C9E376801C44EBF6000B2A70 /* AAPLMainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E3767C1C44EBF6000B2A70 /* AAPLMainMenu.swift */; };
+		C9E376811C44EBF6000B2A70 /* AAPLPauseMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E3767D1C44EBF6000B2A70 /* AAPLPauseMenu.swift */; };
+		C9E376821C44EBF6000B2A70 /* AAPLPostGameMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E3767E1C44EBF6000B2A70 /* AAPLPostGameMenu.swift */; };
+		C9E3768C1C44EC03000B2A70 /* ack.caf in Resources */ = {isa = PBXBuildFile; fileRef = C9E376841C44EC03000B2A70 /* ack.caf */; };
+		C9E3768D1C44EC03000B2A70 /* coconuthit.caf in Resources */ = {isa = PBXBuildFile; fileRef = C9E376851C44EC03000B2A70 /* coconuthit.caf */; };
+		C9E3768E1C44EC03000B2A70 /* deposit.caf in Resources */ = {isa = PBXBuildFile; fileRef = C9E376861C44EC03000B2A70 /* deposit.caf */; };
+		C9E3768F1C44EC03000B2A70 /* Land.wav in Resources */ = {isa = PBXBuildFile; fileRef = C9E376871C44EC03000B2A70 /* Land.wav */; };
+		C9E376901C44EC03000B2A70 /* leftstep.caf in Resources */ = {isa = PBXBuildFile; fileRef = C9E376881C44EC03000B2A70 /* leftstep.caf */; };
+		C9E376911C44EC03000B2A70 /* music.caf in Resources */ = {isa = PBXBuildFile; fileRef = C9E376891C44EC03000B2A70 /* music.caf */; };
+		C9E376921C44EC03000B2A70 /* night.caf in Resources */ = {isa = PBXBuildFile; fileRef = C9E3768A1C44EC03000B2A70 /* night.caf */; };
+		C9E376931C44EC03000B2A70 /* rightstep.caf in Resources */ = {isa = PBXBuildFile; fileRef = C9E3768B1C44EC03000B2A70 /* rightstep.caf */; };
+		C9E376971C44EC0F000B2A70 /* AAPLGameLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E376941C44EC0F000B2A70 /* AAPLGameLevel.swift */; };
+		C9E376981C44EC0F000B2A70 /* AAPLGameSimulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E376951C44EC0F000B2A70 /* AAPLGameSimulation.swift */; };
+		C9E376991C44EC0F000B2A70 /* AAPLMathUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E376961C44EC0F000B2A70 /* AAPLMathUtils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,9 +55,6 @@
 
 /* Begin PBXFileReference section */
 		C9E376331C44E3F2000B2A70 /* BananasSwiftNew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BananasSwiftNew.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C9E376361C44E3F2000B2A70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C9E376381C44E3F2000B2A70 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
-		C9E3763A1C44E3F2000B2A70 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		C9E3763C1C44E3F2000B2A70 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		C9E3763E1C44E3F2000B2A70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9E376411C44E3F2000B2A70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
@@ -49,6 +65,28 @@
 		C9E376531C44E3F2000B2A70 /* BananasSwiftNewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BananasSwiftNewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9E376571C44E3F2000B2A70 /* BananasSwiftNewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BananasSwiftNewUITests.swift; sourceTree = "<group>"; };
 		C9E376591C44E3F2000B2A70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9E376681C44E572000B2A70 /* AAPLAppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAPLAppDelegate.swift; sourceTree = "<group>"; };
+		C9E376691C44E572000B2A70 /* AAPLSceneView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAPLSceneView.swift; sourceTree = "<group>"; };
+		C9E3766F1C44E5D4000B2A70 /* AppDelegateOSX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegateOSX.swift; sourceTree = "<group>"; };
+		C9E376721C44EBEC000B2A70 /* AAPLCoconut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAPLCoconut.swift; sourceTree = "<group>"; };
+		C9E376731C44EBEC000B2A70 /* AAPLMonkeyCharacter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAPLMonkeyCharacter.swift; sourceTree = "<group>"; };
+		C9E376741C44EBEC000B2A70 /* AAPLPlayerCharacter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAPLPlayerCharacter.swift; sourceTree = "<group>"; };
+		C9E376751C44EBEC000B2A70 /* AAPLSkinnedCharacter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAPLSkinnedCharacter.swift; sourceTree = "<group>"; };
+		C9E3767B1C44EBF6000B2A70 /* AAPLInGameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAPLInGameScene.swift; sourceTree = "<group>"; };
+		C9E3767C1C44EBF6000B2A70 /* AAPLMainMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAPLMainMenu.swift; sourceTree = "<group>"; };
+		C9E3767D1C44EBF6000B2A70 /* AAPLPauseMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAPLPauseMenu.swift; sourceTree = "<group>"; };
+		C9E3767E1C44EBF6000B2A70 /* AAPLPostGameMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAPLPostGameMenu.swift; sourceTree = "<group>"; };
+		C9E376841C44EC03000B2A70 /* ack.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ack.caf; sourceTree = "<group>"; };
+		C9E376851C44EC03000B2A70 /* coconuthit.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = coconuthit.caf; sourceTree = "<group>"; };
+		C9E376861C44EC03000B2A70 /* deposit.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = deposit.caf; sourceTree = "<group>"; };
+		C9E376871C44EC03000B2A70 /* Land.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Land.wav; sourceTree = "<group>"; };
+		C9E376881C44EC03000B2A70 /* leftstep.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = leftstep.caf; sourceTree = "<group>"; };
+		C9E376891C44EC03000B2A70 /* music.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = music.caf; sourceTree = "<group>"; };
+		C9E3768A1C44EC03000B2A70 /* night.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = night.caf; sourceTree = "<group>"; };
+		C9E3768B1C44EC03000B2A70 /* rightstep.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = rightstep.caf; sourceTree = "<group>"; };
+		C9E376941C44EC0F000B2A70 /* AAPLGameLevel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAPLGameLevel.swift; sourceTree = "<group>"; };
+		C9E376951C44EC0F000B2A70 /* AAPLGameSimulation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAPLGameSimulation.swift; sourceTree = "<group>"; };
+		C9E376961C44EC0F000B2A70 /* AAPLMathUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAPLMathUtils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +117,8 @@
 		C9E3762A1C44E3F2000B2A70 = {
 			isa = PBXGroup;
 			children = (
+				C9E3766E1C44E5A3000B2A70 /* Bananas OSX */,
+				C9E376661C44E4E9000B2A70 /* Common */,
 				C9E376351C44E3F2000B2A70 /* BananasSwiftNew */,
 				C9E3764B1C44E3F2000B2A70 /* BananasSwiftNewTests */,
 				C9E376561C44E3F2000B2A70 /* BananasSwiftNewUITests */,
@@ -99,9 +139,7 @@
 		C9E376351C44E3F2000B2A70 /* BananasSwiftNew */ = {
 			isa = PBXGroup;
 			children = (
-				C9E376361C44E3F2000B2A70 /* AppDelegate.swift */,
-				C9E376381C44E3F2000B2A70 /* GameView.swift */,
-				C9E3763A1C44E3F2000B2A70 /* GameViewController.swift */,
+				C9E376831C44EC03000B2A70 /* Sounds */,
 				C9E3763C1C44E3F2000B2A70 /* art.scnassets */,
 				C9E3763E1C44E3F2000B2A70 /* Assets.xcassets */,
 				C9E376401C44E3F2000B2A70 /* MainMenu.xib */,
@@ -126,6 +164,73 @@
 				C9E376591C44E3F2000B2A70 /* Info.plist */,
 			);
 			path = BananasSwiftNewUITests;
+			sourceTree = "<group>";
+		};
+		C9E376661C44E4E9000B2A70 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				C9E376941C44EC0F000B2A70 /* AAPLGameLevel.swift */,
+				C9E376951C44EC0F000B2A70 /* AAPLGameSimulation.swift */,
+				C9E376961C44EC0F000B2A70 /* AAPLMathUtils.swift */,
+				C9E3767A1C44EBF6000B2A70 /* UI */,
+				C9E376711C44EBEC000B2A70 /* Characters */,
+				C9E376671C44E572000B2A70 /* App&View */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		C9E376671C44E572000B2A70 /* App&View */ = {
+			isa = PBXGroup;
+			children = (
+				C9E376681C44E572000B2A70 /* AAPLAppDelegate.swift */,
+				C9E376691C44E572000B2A70 /* AAPLSceneView.swift */,
+			);
+			path = "App&View";
+			sourceTree = "<group>";
+		};
+		C9E3766E1C44E5A3000B2A70 /* Bananas OSX */ = {
+			isa = PBXGroup;
+			children = (
+				C9E3766F1C44E5D4000B2A70 /* AppDelegateOSX.swift */,
+			);
+			path = "Bananas OSX";
+			sourceTree = "<group>";
+		};
+		C9E376711C44EBEC000B2A70 /* Characters */ = {
+			isa = PBXGroup;
+			children = (
+				C9E376721C44EBEC000B2A70 /* AAPLCoconut.swift */,
+				C9E376731C44EBEC000B2A70 /* AAPLMonkeyCharacter.swift */,
+				C9E376741C44EBEC000B2A70 /* AAPLPlayerCharacter.swift */,
+				C9E376751C44EBEC000B2A70 /* AAPLSkinnedCharacter.swift */,
+			);
+			path = Characters;
+			sourceTree = "<group>";
+		};
+		C9E3767A1C44EBF6000B2A70 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				C9E3767B1C44EBF6000B2A70 /* AAPLInGameScene.swift */,
+				C9E3767C1C44EBF6000B2A70 /* AAPLMainMenu.swift */,
+				C9E3767D1C44EBF6000B2A70 /* AAPLPauseMenu.swift */,
+				C9E3767E1C44EBF6000B2A70 /* AAPLPostGameMenu.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		C9E376831C44EC03000B2A70 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				C9E376841C44EC03000B2A70 /* ack.caf */,
+				C9E376851C44EC03000B2A70 /* coconuthit.caf */,
+				C9E376861C44EC03000B2A70 /* deposit.caf */,
+				C9E376871C44EC03000B2A70 /* Land.wav */,
+				C9E376881C44EC03000B2A70 /* leftstep.caf */,
+				C9E376891C44EC03000B2A70 /* music.caf */,
+				C9E3768A1C44EC03000B2A70 /* night.caf */,
+				C9E3768B1C44EC03000B2A70 /* rightstep.caf */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,8 +338,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9E3763F1C44E3F2000B2A70 /* Assets.xcassets in Resources */,
+				C9E376921C44EC03000B2A70 /* night.caf in Resources */,
+				C9E3768F1C44EC03000B2A70 /* Land.wav in Resources */,
+				C9E376911C44EC03000B2A70 /* music.caf in Resources */,
 				C9E3763D1C44E3F2000B2A70 /* art.scnassets in Resources */,
+				C9E376931C44EC03000B2A70 /* rightstep.caf in Resources */,
+				C9E376901C44EC03000B2A70 /* leftstep.caf in Resources */,
+				C9E3768C1C44EC03000B2A70 /* ack.caf in Resources */,
+				C9E3768E1C44EC03000B2A70 /* deposit.caf in Resources */,
 				C9E376421C44E3F2000B2A70 /* MainMenu.xib in Resources */,
+				C9E3768D1C44EC03000B2A70 /* coconuthit.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +372,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9E376391C44E3F2000B2A70 /* GameView.swift in Sources */,
-				C9E3763B1C44E3F2000B2A70 /* GameViewController.swift in Sources */,
-				C9E376371C44E3F2000B2A70 /* AppDelegate.swift in Sources */,
+				C9E376781C44EBEC000B2A70 /* AAPLPlayerCharacter.swift in Sources */,
+				C9E376811C44EBF6000B2A70 /* AAPLPauseMenu.swift in Sources */,
+				C9E376821C44EBF6000B2A70 /* AAPLPostGameMenu.swift in Sources */,
+				C9E376701C44E5D4000B2A70 /* AppDelegateOSX.swift in Sources */,
+				C9E376761C44EBEC000B2A70 /* AAPLCoconut.swift in Sources */,
+				C9E3766B1C44E572000B2A70 /* AAPLAppDelegate.swift in Sources */,
+				C9E3766C1C44E572000B2A70 /* AAPLSceneView.swift in Sources */,
+				C9E3767F1C44EBF6000B2A70 /* AAPLInGameScene.swift in Sources */,
+				C9E376981C44EC0F000B2A70 /* AAPLGameSimulation.swift in Sources */,
+				C9E376791C44EBEC000B2A70 /* AAPLSkinnedCharacter.swift in Sources */,
+				C9E376771C44EBEC000B2A70 /* AAPLMonkeyCharacter.swift in Sources */,
+				C9E376971C44EC0F000B2A70 /* AAPLGameLevel.swift in Sources */,
+				C9E376801C44EBF6000B2A70 /* AAPLMainMenu.swift in Sources */,
+				C9E376991C44EC0F000B2A70 /* AAPLMathUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,6 +609,7 @@
 				C9E3765E1C44E3F2000B2A70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C9E3765F1C44E3F2000B2A70 /* Build configuration list for PBXNativeTarget "BananasSwiftNewTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +618,7 @@
 				C9E376611C44E3F2000B2A70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C9E376621C44E3F2000B2A70 /* Build configuration list for PBXNativeTarget "BananasSwiftNewUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +627,7 @@
 				C9E376641C44E3F2000B2A70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
