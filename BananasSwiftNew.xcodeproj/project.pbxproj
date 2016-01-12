@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		C9E3763D1C44E3F2000B2A70 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = C9E3763C1C44E3F2000B2A70 /* art.scnassets */; };
-		C9E3763F1C44E3F2000B2A70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9E3763E1C44E3F2000B2A70 /* Assets.xcassets */; };
 		C9E376421C44E3F2000B2A70 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9E376401C44E3F2000B2A70 /* MainMenu.xib */; };
 		C9E3764D1C44E3F2000B2A70 /* BananasSwiftNewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E3764C1C44E3F2000B2A70 /* BananasSwiftNewTests.swift */; };
 		C9E376581C44E3F2000B2A70 /* BananasSwiftNewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E376571C44E3F2000B2A70 /* BananasSwiftNewUITests.swift */; };
@@ -23,17 +22,17 @@
 		C9E376801C44EBF6000B2A70 /* AAPLMainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E3767C1C44EBF6000B2A70 /* AAPLMainMenu.swift */; };
 		C9E376811C44EBF6000B2A70 /* AAPLPauseMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E3767D1C44EBF6000B2A70 /* AAPLPauseMenu.swift */; };
 		C9E376821C44EBF6000B2A70 /* AAPLPostGameMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E3767E1C44EBF6000B2A70 /* AAPLPostGameMenu.swift */; };
-		C9E3768C1C44EC03000B2A70 /* ack.caf in Resources */ = {isa = PBXBuildFile; fileRef = C9E376841C44EC03000B2A70 /* ack.caf */; };
-		C9E3768D1C44EC03000B2A70 /* coconuthit.caf in Resources */ = {isa = PBXBuildFile; fileRef = C9E376851C44EC03000B2A70 /* coconuthit.caf */; };
-		C9E3768E1C44EC03000B2A70 /* deposit.caf in Resources */ = {isa = PBXBuildFile; fileRef = C9E376861C44EC03000B2A70 /* deposit.caf */; };
-		C9E3768F1C44EC03000B2A70 /* Land.wav in Resources */ = {isa = PBXBuildFile; fileRef = C9E376871C44EC03000B2A70 /* Land.wav */; };
-		C9E376901C44EC03000B2A70 /* leftstep.caf in Resources */ = {isa = PBXBuildFile; fileRef = C9E376881C44EC03000B2A70 /* leftstep.caf */; };
-		C9E376911C44EC03000B2A70 /* music.caf in Resources */ = {isa = PBXBuildFile; fileRef = C9E376891C44EC03000B2A70 /* music.caf */; };
-		C9E376921C44EC03000B2A70 /* night.caf in Resources */ = {isa = PBXBuildFile; fileRef = C9E3768A1C44EC03000B2A70 /* night.caf */; };
-		C9E376931C44EC03000B2A70 /* rightstep.caf in Resources */ = {isa = PBXBuildFile; fileRef = C9E3768B1C44EC03000B2A70 /* rightstep.caf */; };
 		C9E376971C44EC0F000B2A70 /* AAPLGameLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E376941C44EC0F000B2A70 /* AAPLGameLevel.swift */; };
 		C9E376981C44EC0F000B2A70 /* AAPLGameSimulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E376951C44EC0F000B2A70 /* AAPLGameSimulation.swift */; };
 		C9E376991C44EC0F000B2A70 /* AAPLMathUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E376961C44EC0F000B2A70 /* AAPLMathUtils.swift */; };
+		C9E376B41C44F5CF000B2A70 /* ack.caf in Resources */ = {isa = PBXBuildFile; fileRef = C9E376AC1C44F5CF000B2A70 /* ack.caf */; };
+		C9E376B51C44F5CF000B2A70 /* coconuthit.caf in Resources */ = {isa = PBXBuildFile; fileRef = C9E376AD1C44F5CF000B2A70 /* coconuthit.caf */; };
+		C9E376B61C44F5CF000B2A70 /* deposit.caf in Resources */ = {isa = PBXBuildFile; fileRef = C9E376AE1C44F5CF000B2A70 /* deposit.caf */; };
+		C9E376B71C44F5CF000B2A70 /* Land.wav in Resources */ = {isa = PBXBuildFile; fileRef = C9E376AF1C44F5CF000B2A70 /* Land.wav */; };
+		C9E376B81C44F5CF000B2A70 /* leftstep.caf in Resources */ = {isa = PBXBuildFile; fileRef = C9E376B01C44F5CF000B2A70 /* leftstep.caf */; };
+		C9E376B91C44F5CF000B2A70 /* music.caf in Resources */ = {isa = PBXBuildFile; fileRef = C9E376B11C44F5CF000B2A70 /* music.caf */; };
+		C9E376BA1C44F5CF000B2A70 /* night.caf in Resources */ = {isa = PBXBuildFile; fileRef = C9E376B21C44F5CF000B2A70 /* night.caf */; };
+		C9E376BB1C44F5CF000B2A70 /* rightstep.caf in Resources */ = {isa = PBXBuildFile; fileRef = C9E376B31C44F5CF000B2A70 /* rightstep.caf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +55,6 @@
 /* Begin PBXFileReference section */
 		C9E376331C44E3F2000B2A70 /* BananasSwiftNew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BananasSwiftNew.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9E3763C1C44E3F2000B2A70 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
-		C9E3763E1C44E3F2000B2A70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9E376411C44E3F2000B2A70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		C9E376431C44E3F2000B2A70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9E376481C44E3F2000B2A70 /* BananasSwiftNewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BananasSwiftNewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,17 +74,17 @@
 		C9E3767C1C44EBF6000B2A70 /* AAPLMainMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAPLMainMenu.swift; sourceTree = "<group>"; };
 		C9E3767D1C44EBF6000B2A70 /* AAPLPauseMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAPLPauseMenu.swift; sourceTree = "<group>"; };
 		C9E3767E1C44EBF6000B2A70 /* AAPLPostGameMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAPLPostGameMenu.swift; sourceTree = "<group>"; };
-		C9E376841C44EC03000B2A70 /* ack.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ack.caf; sourceTree = "<group>"; };
-		C9E376851C44EC03000B2A70 /* coconuthit.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = coconuthit.caf; sourceTree = "<group>"; };
-		C9E376861C44EC03000B2A70 /* deposit.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = deposit.caf; sourceTree = "<group>"; };
-		C9E376871C44EC03000B2A70 /* Land.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Land.wav; sourceTree = "<group>"; };
-		C9E376881C44EC03000B2A70 /* leftstep.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = leftstep.caf; sourceTree = "<group>"; };
-		C9E376891C44EC03000B2A70 /* music.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = music.caf; sourceTree = "<group>"; };
-		C9E3768A1C44EC03000B2A70 /* night.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = night.caf; sourceTree = "<group>"; };
-		C9E3768B1C44EC03000B2A70 /* rightstep.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = rightstep.caf; sourceTree = "<group>"; };
 		C9E376941C44EC0F000B2A70 /* AAPLGameLevel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAPLGameLevel.swift; sourceTree = "<group>"; };
 		C9E376951C44EC0F000B2A70 /* AAPLGameSimulation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAPLGameSimulation.swift; sourceTree = "<group>"; };
 		C9E376961C44EC0F000B2A70 /* AAPLMathUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAPLMathUtils.swift; sourceTree = "<group>"; };
+		C9E376AC1C44F5CF000B2A70 /* ack.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ack.caf; sourceTree = "<group>"; };
+		C9E376AD1C44F5CF000B2A70 /* coconuthit.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = coconuthit.caf; sourceTree = "<group>"; };
+		C9E376AE1C44F5CF000B2A70 /* deposit.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = deposit.caf; sourceTree = "<group>"; };
+		C9E376AF1C44F5CF000B2A70 /* Land.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Land.wav; sourceTree = "<group>"; };
+		C9E376B01C44F5CF000B2A70 /* leftstep.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = leftstep.caf; sourceTree = "<group>"; };
+		C9E376B11C44F5CF000B2A70 /* music.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = music.caf; sourceTree = "<group>"; };
+		C9E376B21C44F5CF000B2A70 /* night.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = night.caf; sourceTree = "<group>"; };
+		C9E376B31C44F5CF000B2A70 /* rightstep.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = rightstep.caf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,9 +137,8 @@
 		C9E376351C44E3F2000B2A70 /* BananasSwiftNew */ = {
 			isa = PBXGroup;
 			children = (
-				C9E376831C44EC03000B2A70 /* Sounds */,
+				C9E376AB1C44F5CF000B2A70 /* Sounds */,
 				C9E3763C1C44E3F2000B2A70 /* art.scnassets */,
-				C9E3763E1C44E3F2000B2A70 /* Assets.xcassets */,
 				C9E376401C44E3F2000B2A70 /* MainMenu.xib */,
 				C9E376431C44E3F2000B2A70 /* Info.plist */,
 			);
@@ -218,17 +215,17 @@
 			path = UI;
 			sourceTree = "<group>";
 		};
-		C9E376831C44EC03000B2A70 /* Sounds */ = {
+		C9E376AB1C44F5CF000B2A70 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
-				C9E376841C44EC03000B2A70 /* ack.caf */,
-				C9E376851C44EC03000B2A70 /* coconuthit.caf */,
-				C9E376861C44EC03000B2A70 /* deposit.caf */,
-				C9E376871C44EC03000B2A70 /* Land.wav */,
-				C9E376881C44EC03000B2A70 /* leftstep.caf */,
-				C9E376891C44EC03000B2A70 /* music.caf */,
-				C9E3768A1C44EC03000B2A70 /* night.caf */,
-				C9E3768B1C44EC03000B2A70 /* rightstep.caf */,
+				C9E376AC1C44F5CF000B2A70 /* ack.caf */,
+				C9E376AD1C44F5CF000B2A70 /* coconuthit.caf */,
+				C9E376AE1C44F5CF000B2A70 /* deposit.caf */,
+				C9E376AF1C44F5CF000B2A70 /* Land.wav */,
+				C9E376B01C44F5CF000B2A70 /* leftstep.caf */,
+				C9E376B11C44F5CF000B2A70 /* music.caf */,
+				C9E376B21C44F5CF000B2A70 /* night.caf */,
+				C9E376B31C44F5CF000B2A70 /* rightstep.caf */,
 			);
 			path = Sounds;
 			sourceTree = "<group>";
@@ -337,17 +334,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9E3763F1C44E3F2000B2A70 /* Assets.xcassets in Resources */,
-				C9E376921C44EC03000B2A70 /* night.caf in Resources */,
-				C9E3768F1C44EC03000B2A70 /* Land.wav in Resources */,
-				C9E376911C44EC03000B2A70 /* music.caf in Resources */,
+				C9E376BA1C44F5CF000B2A70 /* night.caf in Resources */,
+				C9E376B41C44F5CF000B2A70 /* ack.caf in Resources */,
+				C9E376B81C44F5CF000B2A70 /* leftstep.caf in Resources */,
+				C9E376BB1C44F5CF000B2A70 /* rightstep.caf in Resources */,
+				C9E376B91C44F5CF000B2A70 /* music.caf in Resources */,
+				C9E376B71C44F5CF000B2A70 /* Land.wav in Resources */,
 				C9E3763D1C44E3F2000B2A70 /* art.scnassets in Resources */,
-				C9E376931C44EC03000B2A70 /* rightstep.caf in Resources */,
-				C9E376901C44EC03000B2A70 /* leftstep.caf in Resources */,
-				C9E3768C1C44EC03000B2A70 /* ack.caf in Resources */,
-				C9E3768E1C44EC03000B2A70 /* deposit.caf in Resources */,
+				C9E376B51C44F5CF000B2A70 /* coconuthit.caf in Resources */,
+				C9E376B61C44F5CF000B2A70 /* deposit.caf in Resources */,
 				C9E376421C44E3F2000B2A70 /* MainMenu.xib in Resources */,
-				C9E3768D1C44EC03000B2A70 /* coconuthit.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

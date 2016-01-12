@@ -271,8 +271,8 @@ class AAPLGameSimulation: SCNScene, SCNSceneRendererDelegate {
     // MARK: Sound and music
     
     func playSound(soundFileName: String?) {
-        if (soundFileName != nil) {
-            let path = String(format: "Sounds/%@", soundFileName!)
+        if let soundFileName = soundFileName {
+            let path = String(format: "%@", soundFileName)
             self.gameUIScene.runAction(SKAction.playSoundFileNamed(path, waitForCompletion: false))
         }
     }
@@ -280,7 +280,7 @@ class AAPLGameSimulation: SCNScene, SCNSceneRendererDelegate {
     func playMusic(soundFileName: String?) {
         if let soundFileName = soundFileName where
             self.gameUIScene.actionForKey(soundFileName) != nil {
-                let path = String(format: "Sounds/%@", soundFileName)
+                let path = String(format: "%@", soundFileName)
                 let repeatAction = SKAction.repeatActionForever(SKAction.playSoundFileNamed(path, waitForCompletion: true))
                 self.gameUIScene.runAction(repeatAction, withKey: soundFileName)
         }
