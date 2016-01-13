@@ -317,6 +317,13 @@ class AAPLGameSimulation: SCNScene, SCNSceneRendererDelegate {
     }
     
     static func loadParticleSystemWithName(name: String) -> SCNParticleSystem? {
+        
+        var path = "level/effects/"
+        path = self.pathForArtResource(path)
+        let ps = SCNParticleSystem(named: name, inDirectory: path)
+        let url = ps!.particleImage as? NSURL
+        return ps
+        /*
         var path = String(format: "level/effects/%@.scnp", name)
         path = self.pathForArtResource(path)
         path = NSBundle.mainBundle().pathForResource(path, ofType: nil)!
@@ -332,6 +339,7 @@ class AAPLGameSimulation: SCNScene, SCNSceneRendererDelegate {
         }
         NSLog("failed to load particle system \(name)")
         return nil
+             */
     }
 }
 

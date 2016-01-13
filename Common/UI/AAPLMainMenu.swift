@@ -19,7 +19,7 @@ class AAPLMainMenu: SKNode {
 //    var myLabelBackground: SKLabelNode
     
     init(frameSize:CGSize) {
-        self.gameLogo = SKSpriteNode(imageNamed:"art.scnassets/level/interface/logo_bananas.png")
+        self.gameLogo = SKSpriteNode(imageNamed:"logo_bananas.png")
 
         super.init()
         

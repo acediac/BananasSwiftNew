@@ -584,6 +584,8 @@ class AAPLGameLevel : NSObject, AAPLGameUIState {
         let scene: SCNScene? = SCNScene(named: "level.dae",
             inDirectory: AAPLGameSimulation.pathForArtResource("level/"),
             options: [SCNSceneSourceConvertToYUpKey : true])
+        
+        
         if let childNodes = scene?.rootNode.childNodes {
             for node: SCNNode in childNodes {
                 self.rootNode.addChildNode(node)
@@ -615,7 +617,7 @@ class AAPLGameLevel : NSObject, AAPLGameUIState {
             self.sunLight.eulerAngles = SCNVector3Make(CGFloat(M_PI_2), 0, 0)
             _lightOffsetFromCharacter = SCNVector3Make(0, 2000, 0)
             
-            self.sunLight.light?.gobo!.contents = "art.scnassets/techniques/blobShadow.jpg"
+            self.sunLight.light?.gobo!.contents = "Images/techniques/blobShadow.jpg"
             self.sunLight.light?.gobo!.intensity = 0.5
             
             let middle: SCNNode = self.rootNode.childNodeWithName("dummy_front", recursively: true)!
