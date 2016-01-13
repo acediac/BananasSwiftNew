@@ -4,14 +4,14 @@
   <contributor>
    <authoring_tool>SceneKit Collada Exporter v1.0</authoring_tool>
   </contributor>
-  <created>2016-01-12T08:19:37Z</created>
-  <modified>2016-01-12T08:19:37Z</modified>
+  <created>2016-01-13T03:09:17Z</created>
+  <modified>2016-01-13T03:09:17Z</modified>
   <unit meter="0.025400"/>
   <up_axis>Z_UP</up_axis>
  </asset>
  <library_images>
   <image id="image1">
-   <init_from>../../level/images/foliage.png</init_from>
+   <init_from>../../../Images/images/foliage.png</init_from>
   </image>
  </library_images>
  <library_materials>

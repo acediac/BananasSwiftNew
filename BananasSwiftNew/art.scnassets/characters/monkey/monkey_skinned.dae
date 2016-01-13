@@ -4,21 +4,14 @@
   <contributor>
    <authoring_tool>SceneKit Collada Exporter v1.0</authoring_tool>
   </contributor>
-  <created>2014-04-16T14:26:12Z</created>
-  <modified>2014-04-16T14:26:12Z</modified>
+  <created>2016-01-13T03:09:17Z</created>
+  <modified>2016-01-13T03:09:17Z</modified>
   <unit meter="0.025400"/>
   <up_axis>Z_UP</up_axis>
  </asset>
  <library_images>
   <image id="image1">
-   <init_from>monkey.png</init_from>
-   <extra>
-    <technique profile="SceneKit">
-     <location>SKEPathExportModeRelativeToGroup</location>
-     <relativePath>monkey.png</relativePath>
-     <runtimePath>monkey.png</runtimePath>
-    </technique>
-   </extra>
+   <init_from>../../../Images/characters/monkey/monkey.png</init_from>
   </image>
  </library_images>
  <library_materials>
