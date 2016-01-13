@@ -4,31 +4,17 @@
   <contributor>
    <authoring_tool>SceneKit Collada Exporter v1.0</authoring_tool>
   </contributor>
-  <created>2014-04-16T13:23:15Z</created>
-  <modified>2014-04-16T13:23:15Z</modified>
+  <created>2016-01-13T03:09:16Z</created>
+  <modified>2016-01-13T03:09:16Z</modified>
   <unit meter="0.025400"/>
   <up_axis>Z_UP</up_axis>
  </asset>
  <library_images>
   <image id="image1">
-   <init_from>effects/volcano_effects.png</init_from>
-   <extra>
-    <technique profile="SceneKit">
-     <location>SKEPathExportModeRelativeToGroup</location>
-     <relativePath>effects/volcano_effects.png</relativePath>
-     <runtimePath>volcano_effects.png</runtimePath>
-    </technique>
-   </extra>
+   <init_from>../../Images/effects/volcano_effects.png</init_from>
   </image>
   <image id="image2">
-   <init_from>images/volcano.png</init_from>
-   <extra>
-    <technique profile="SceneKit">
-     <location>SKEPathExportModeRelativeToGroup</location>
-     <relativePath>images/volcano.png</relativePath>
-     <runtimePath>volcano.png</runtimePath>
-    </technique>
-   </extra>
+   <init_from>../../Images/images/volcano.png</init_from>
   </image>
  </library_images>
  <library_materials>

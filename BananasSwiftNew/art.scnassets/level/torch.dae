@@ -4,8 +4,8 @@
   <contributor>
    <authoring_tool>SceneKit Collada Exporter v1.0</authoring_tool>
   </contributor>
-  <created>2014-05-14T11:38:30Z</created>
-  <modified>2014-05-14T11:38:30Z</modified>
+  <created>2016-01-13T03:09:16Z</created>
+  <modified>2016-01-13T03:09:16Z</modified>
   <unit meter="0.025400"/>
   <up_axis>Z_UP</up_axis>
  </asset>
@@ -55,7 +55,7 @@
  </library_lights>
  <library_images>
   <image id="image6">
-   <init_from>images/temple.png</init_from>
+   <init_from>../../Images/images/temple.png</init_from>
   </image>
  </library_images>
  <library_materials>
